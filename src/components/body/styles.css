@@ -1,0 +1,7 @@
+.body-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 115px;
+    flex-wrap: wrap;
+}

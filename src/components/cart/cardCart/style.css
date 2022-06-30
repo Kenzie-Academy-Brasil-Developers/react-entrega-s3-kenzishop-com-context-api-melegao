@@ -1,0 +1,40 @@
+.cardCart{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.imgCart{
+    max-width: 140px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContent h2{
+    font-size: 18px;
+    color: #024F28;
+}
+
+.cardContent p{
+    font-size: 14px;
+}
+
+.cardContent button{
+    padding: 0px;
+    align-self: flex-start;
+    background-color: white;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cardContent button:hover {
+    text-decoration: underline;
+}

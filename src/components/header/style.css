@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #024F28;
+    padding: 0px 110px;
+}
+
+.logo {
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.header-cart-container{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.header-cart{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f1f1f1;
+}
+
+.header-cart-itens{
+    background-color: #f1f1f1;
+    color: #024F28;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    align-self: center;
+}
